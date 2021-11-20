@@ -175,7 +175,7 @@
     font-size: 24px;
 }
 .india-zoo-status{
-    background-image: url("/images/banner.jpg");
+    background-image: url("../images/banner.jpg");
     background-position: cover;
     margin: 0 0 60px 0;
     background-repeat: no-repeat;
