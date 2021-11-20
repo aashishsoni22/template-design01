@@ -1,0 +1,577 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.comp-logo{
+    width: 100vw;
+    height: 80px;
+}
+.comp-logo img{
+    margin-left: 20px;
+    padding: 10px;
+    width: auto;
+    height: 90px;
+    background-color: #fff;
+}
+.comp-logo p{
+    position: absolute;
+    top: 1%;
+    width: 60%;
+    text-align: left;
+    left: 30%;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    word-spacing: 2px;
+    border:3px dashed rgb(71, 199, 92);
+    padding: 5px;
+}
+.navigation-bar{
+    background-color: rgb(253, 253, 253);
+    width: 100vw;
+    height:auto;
+    opacity:0.8;
+    
+}
+.navigation-bar ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 25px;
+}
+.navigation-bar li{
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    transition: 0.6s all;
+}
+
+.navigation-bar li a{
+    text-transform: uppercase;
+    cursor: pointer;
+    margin:0 5px 0 5px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    transition: 0.8s all;
+}
+.navigation-bar li a:hover{
+    color: #000;
+}
+.navigation-bar li:hover{
+    background-color: rgb(71, 199, 92);
+}
+
+.banner-wrapper{
+    min-width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url("/images/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    top: -45px;
+    z-index: -1;
+}
+.banner-wrapper h1{
+    color: #fff;
+    text-align: right;
+    text-transform: uppercase;
+    position: relative;
+    top: 80%;
+    margin-right: 20px;
+}
+.banner-wrapper p{
+    position: relative;
+    text-align: right;
+    margin-right: 50px;
+    top: 78%;
+    color: #fff;
+    
+}
+.famous-inner-title h2{
+    margin: 0px 0 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(71, 199, 92);
+    font-size: 40px;
+}
+.famous-inner-title p{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.famous-innner-body{
+    width: 100vw;
+    height: auto;
+}
+.famous-Animal-wrapper{
+    overflow-y: hidden;
+}
+
+.famous-innner-body{
+    margin: 50px 0 50px 0;
+}
+.famous-innner-body ul{
+    display: flex;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+.famous-innner-body img{
+    border-radius: 50%;
+}
+.famous-innner-body li{
+    border: 1px solid rgb(71, 199, 92);
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    background-image: linear-gradient(to bottom,rgb(71, 199, 92),#fff );
+}
+.famous-innner-body p{
+    margin-bottom: 20px;
+}
+.famous-innner-body a{
+    text-decoration: none;
+    background-color: rgb(71, 199, 92);
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+
+.famous-innner-body a:hover span:after {
+    left: 0;
+    opacity: 1;
+}
+
+.india-zoo h3{
+    text-align: center;
+    text-transform: capitalize;
+    color:rgb(71, 199, 92);
+    margin: 30px 0 30px 0;
+}
+.india-zoo ul{
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.india-zoo h3{
+    font-size: 40px;
+}
+
+.india-zoo ul li h2{
+    font-size: 40px;
+    color: rgb(71, 199, 92);
+}
+.india-zoo ul li h4{
+    font-size: 24px;
+}
+.india-zoo-status{
+    background-image: url("/images/banner.jpg");
+    background-position: cover;
+    margin: 0 0 60px 0;
+    background-repeat: no-repeat;
+}
+
+/* history of animal section */
+.animal-history-wrapper{
+    text-align: center;
+    color: rgb(71, 199, 92);
+    font-size: 40px;
+    margin: 0 0 40px 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.grid-item01 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 50px;
+}
+.grid-item02 p{
+    text-align: justify;
+    padding: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+/* blog section */
+.blog-wrapper h1{
+    text-align: center;
+    color: rgb(71, 199, 92);
+    font-size: 40px;
+    margin: 50px 0 50px 0;
+}
+.blog-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin: 0 150px 0 150px;
+}
+.blog-item{
+    margin: 0 0 20px 0;
+    border:1px solid rgb(71, 199, 92);
+    padding:30px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom,rgb(71, 199, 92),#fff );
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.blog-item:hover{
+    border:1px solid rgb(71, 199, 92);
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom,#fff,rgb(71, 199, 92,0.4));
+}
+.blog-item img{
+    border-radius: 20px;
+}
+.blog-item h3{
+    text-align: center;
+    color: rgb(71, 199, 92);
+}
+
+
+/* contact form */
+.form-wrapper{
+    margin: 50px 0 0 0;
+}
+.form-inner-section{
+    background-image: linear-gradient( to bottom, rgb(71, 199, 92), #000);
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+.form-inner-section h3{
+    font-size: 40px;
+    color: #fff;
+    margin:  auto;
+    position: relative;
+    max-width: fit-content;
+}
+/* before property apply */
+.form-inner-section h3:after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    top: 85%;
+    transition: 0.5s all linear;
+    left: 0;
+}
+.form-inner-section h3:hover:after{
+    width: 100%; 
+}
+/* end */
+.form-inner-section form{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form-inner-section form input{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.form-inner-section form textarea{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.form-inner-section form a{
+    text-decoration: none;
+    background-color: rgb(71, 199, 92);
+    color: #fff;
+    border-radius:10px;
+    padding:10px 20px;
+    text-align: center;
+}
+
+.footer-wrapper footer{
+   
+    padding: 20px;
+}
+.footer-wrapper footer p{
+    color: #000;
+    font-size: 18px;
+    text-align:left;
+    border-bottom: 1px solid rgb(71, 199, 92);
+    padding-bottom: 5px;
+    width: max-content;
+    text-transform: capitalize;
+}
+.footer-wrapper footer p span{
+    color: rgb(71, 199, 92);
+    font-weight: 700;
+}
+.fa-chevron-circle-up{
+    position: fixed;
+    left: 96%;
+    top: 90%;
+    color: rgb(71, 199, 92);
+    font-size: 40px;
+    transition: 0.3s all;
+}
+.fa-chevron-circle-up:hover{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* owl carsouel section */
+.carsouel-wrapper h3{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(71, 199, 92);
+    margin: 50px 0;
+}
+.owl-stage{
+    height: 250px;
+    margin-bottom: 10px;
+}
+button.owl-prev {
+        font-size: 80px!important;
+        position: absolute;
+        top: 60px;
+        left: 0;
+}
+button.owl-prev span{
+    color: rgb(71, 199, 92);
+}
+button.owl-next span{
+    color: rgb(71, 199, 92);
+}
+button.owl-prev:hover{
+    background-color: transparent!important;
+}
+button.owl-next {
+    font-size: 80px!important;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+button.owl-next:hover{
+    background: transparent!important;
+}
+.owl-dots{
+    display: none;
+}
+
+/* sub menu css */
+.sub-menu{
+    position: relative;
+    top: 20%;
+    display: none;
+    padding-top: 10px;
+    width:310px;
+}
+.navigation-bar li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    transition: 0.3s all linear;
+}
+.sub-menu ul{
+    display: block;
+    background: rgb(255, 255, 255);
+    text-align: left;
+}
+.sub-menu ul li{
+    border-bottom: 1px solid #000;
+    text-align: left;
+    padding: 10px;
+    
+}
+.sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.navigation-bar li a i{
+    position: relative;
+    top: 2px;
+}
+.sub-menu li a i{
+    margin-right: 10px;
+}
+
+/* youtube video */
+.youtube-video{
+    display: flex;
+    justify-content: center;
+}
+.youtube-video iframe{
+    width: 92%;
+    height: 90vh;
+}
+
+/* mobile version */
+@media (max-width:767px){
+    .comp-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .navigation-bar{
+        display: none;
+    }
+    .banner-wrapper{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 20px 0;
+        top: 0;
+    }
+    .banner-wrapper p{
+        margin: 0px;
+    }
+    .famous-inner-title{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .famous-inner-title h2{
+        font-size: 30px;
+    }
+    .famous-inner-title p {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        padding: 0 50px;
+        margin-bottom: 20px;
+    }
+    .famous-innner-body{
+        margin: 0px;
+    }
+    .famous-innner-body ul{
+        display: block;
+    }
+    .famous-innner-body ul li{
+        margin-bottom: 20px;
+        padding:  20px;
+    }
+    .india-zoo h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        padding: 0 15px 0 15px;
+    }
+    .india-zoo ul{
+        display: block;
+    }
+    .india-zoo-status li{
+        margin: 30px 0;
+    }
+    .india-zoo-status li h4{
+        color: #fff;
+        text-shadow: 0px 0px 10px #000;
+    }
+    .india-zoo ul li h2{
+        text-shadow: 0 0 10px #000;
+
+    }
+    .animal-history-wrapper{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-item01 img{
+        height: 400px;
+        border-radius: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .blog-wrapper h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin: 0 0 50px 0;
+    }
+    .blog-container{
+        display: block;
+        margin: 40px;
+    }
+    .blog-item{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .carsouel-wrapper h3{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 50px 0;
+    }
+    .form-wrapper{
+        margin: 30px 0 0 0;
+    }
+    .footer-wrapper footer p{
+        font-size: 15px;
+    }
+    /* .navigation-bar ul{
+        display: block;
+    } */
+    .sub-menu{
+        top: 20%;
+        left: 30%;
+    }
+    /* .navigation-bar ul{
+        margin-left: 0px;
+    } */
+    .fa-chevron-circle-up{
+        position: fixed;
+    left: 92%;
+    top: 87%;
+    color: rgb(71, 199, 92);
+    font-size: 30px;
+    transition: 0.3s all;
+    }
+    .youtube-video iframe{
+        width: 90%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    }
+    .comp-logo p{
+        display: none;
+    }
+    .owl-stage{
+        overflow-y: visible!important;
+    }
+    .blog-item img{
+        width: 100%;
+    }
+}
+/* mobile version end */
